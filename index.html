@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            max-width: 500px;
+            margin: 100px auto 20px;
+        }
+        img {
+            width: 250px;
+            border-radius: 50%;
+            margin-top: 20px;
+            border: 3px solid #ff00c8;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+        }
+        ul {
+            padding: 0;
+            list-style-position: inside;
+        }
+        a.btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ff00c8;
+            color: white;
+            border-radius: 10px;
+            transition: 0.3s;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a.btn:hover {
+            background: #ea00ff;
+        }
+        .container {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+                padding: 30px;
+            }
+            img {
+                width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="about">
+        <h1>Welcome to My Personal Website</h1>
+        <h2>About Me</h2>
+        <p>Hello! My name is Unzilla, and I am a passionate Software Engineering student at SMI University. With a keen interest in web development, I enjoy building creative and functional digital experiences. I am always eager to learn new technologies and improve my skills in programming and design.</p>
+        <h2>My Expertise</h2>
+        <p>I specialize in front-end and back-end web development, ensuring user-friendly and efficient applications. I have experience with HTML, CSS, JavaScript, and various frameworks that enhance the web experience.</p>
+        <h2 id="hobbies">My Hobbies & Interests</h2>
+        <p>Besides coding, I have a diverse set of hobbies that keep me inspired and motivated:</p>
+        <ul>
+            <li><strong>Cooking:</strong> Experimenting with new recipes and flavors.</li>
+            <li><strong>Exploring Cuisines:</strong> I love trying different types of food.</li>
+            <li><strong>Traveling:</strong> Exploring new places and cultures is a passion of mine.</li>
+            <li><strong>Programming:</strong> Building projects and solving real-world problems.</li>
+            <li><strong>Photography:</strong> Capturing moments and beautiful landscapes.</li>
+            <li><strong>Sketching:</strong> Expressing creativity through art and design.</li>
+        </ul>
+        <h2>Meet Me</h2>
+        <img src="its_me.jpg" alt="My Picture">
+        <h2>My Work</h2>
+        <p>Check out my latest projects and contributions on GitHub.</p>
+        <a href="https://its-unzilla.github.io/Samz-technology/" target="_blank" class="btn">Visit My GitHub</a>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to connect or collaborate, feel free to reach out:</p>
+        <p><strong>Email:</strong> <a href="mailto:unzilla119@gmail.com">unzilla119@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/unzilla-2737a328a/" target="_blank">View My LinkedIn Profile</a></p>
+    </div>
+</body>
+</html>
